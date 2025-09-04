@@ -1,14 +1,23 @@
 import 'dart:io';
 
 void main(){
-    int idade = 5;
-    if (idade >= 18)
-    {
-        print('Pode entrar na balada');        
+    int renda = 30000;
+
+    if (renda >= 1400){
+        print("Varejo");
     }
-    else{
-        print('Nao pode entrar');
+    else if(renda >= 5000) {
+        print("Vangogh");
     }
-    print ('fim do programa');
+    else if(renda >= 30000) {
+        print("Select");
+    }
+    else if(renda >= 60000) {
+        print("Exclusive");
+    }
+    else if(renda >= 100000) {
+        print("Saldo");
+    }
     
+
 }
