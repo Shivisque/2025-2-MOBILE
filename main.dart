@@ -1,10 +1,14 @@
 import 'dart:io';
+
 void main(){
-    int idade = 12;
-    if(idade >= 18)
+    int idade = 5;
+    if (idade >= 18)
     {
-        print('pode entrar na balada');
+        print('Pode entrar na balada');        
     }
-    print('fim do programa');
-    return;
+    else{
+        print('Nao pode entrar');
+    }
+    print ('fim do programa');
+    
 }
